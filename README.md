@@ -1,7 +1,5 @@
 # Steam Review Intelligence: Mining Business Insights from User Feedback
 
-![Project Banner Placeholder](https://via.placeholder.com/1000x300?text=Steam+Review+Intelligence+Project)
-
 ## Executive Summary
 
 In the competitive gaming industry, user feedback is abundant but often unstructured. While standard sentiment analysis classifies reviews as Positive or Negative, this project goes deeper to understand the **"Why"** behind the ratings.
@@ -41,6 +39,7 @@ To extract meaningful keywords from millions of rows of noisy text, a rigorous c
 <img width="1990" height="790" alt="image" src="https://github.com/user-attachments/assets/67b640e3-3948-4af9-9c65-cd8470104bbc" />
 
 
+
 Based on **Bigram & Trigram Analysis** of the full dataset, the following patterns emerged as the primary drivers of user sentiment.
 
 1. **The "Churn Drivers" (Why Players Leave)**
@@ -76,6 +75,11 @@ Based on **Bigram & Trigram Analysis** of the full dataset, the following patter
 
 A head-to-head analysis of two major **Co-op Shooters** reveals why one remains beloved while the other faces backlash, despite sharing the same genre.
 
+* **Trigram**
+
+<img width="1990" height="790" alt="image" src="https://github.com/user-attachments/assets/3952c235-03d9-41a9-bb27-54b0cee0f59e" />
+
+
 - **PAYDAY 2: The Trust Crisis**
   - **Top Negative Trigrams:** `shame thought otherwise`, `made clear payday`, `micro transaction whatsoever`, `completely overkill pack`.
   - **Analysis:** The negative sentiment is highly specific and political. It points directly to a scandal where the developers broke a promise regarding microtransactions.
@@ -89,9 +93,6 @@ A head-to-head analysis of two major **Co-op Shooters** reveals why one remains 
 ## Predictive Modeling Preparation
 
 To transition from exploratory analysis to machine learning, the dataset underwent a strict transformation pipeline to ensure model integrity and prevent bias.
-
-* **Trigram**
-<img width="1990" height="790" alt="image" src="https://github.com/user-attachments/assets/3952c235-03d9-41a9-bb27-54b0cee0f59e" />
 
 
 1. **The "High-Quality" Filter**
